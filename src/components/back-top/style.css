@@ -1,0 +1,19 @@
+.back-top{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    color: white;
+    background-color: grey;
+    line-height: 40px;
+    text-align: center;
+    transition: all .3s cubic-bezier(.645,.045,.355,1);
+    position: fixed;
+    z-index: 4;
+    right: 100px;
+    bottom: 50px;
+}
+.back-top:hover {
+    background-color: rgba(64,64,64,.6);
+    transition: all .3s cubic-bezier(.645,.045,.355,1);
+    cursor: pointer;
+}

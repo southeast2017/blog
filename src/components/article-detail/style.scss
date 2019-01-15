@@ -1,0 +1,28 @@
+.article-detail {
+    width: 791.5px;
+    height: 100%;
+    background-color: #fafafa;
+    box-shadow: 0 0 6px #666;
+    padding: 15px 35px;
+    .blog-title {
+        // color: rgba(0,0,0.85);
+        padding: 7px 0;
+        font-size: 20px;
+        font-weight: 700;
+    } 
+
+    .blog-top {
+        color: #aaa;
+        // margin-top: -2px;
+        margin-bottom: 11px;
+        > span {
+            font-size: 14px;
+            margin-right: 5px;
+        }
+        .spliter {
+            height: 13px;
+            display: inline-block;
+            vertical-align: -2px;
+        }
+    }
+}

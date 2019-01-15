@@ -1,0 +1,35 @@
+.banner-wrap{
+    width: 665px;
+    height: 294px;
+    overflow: hidden;
+    box-shadow: 0 0 5px #555;
+    background: #f5f5f5;
+    display: inline-block;
+}
+.banner-list{
+    width: 525px;
+    height: 295px;
+    display: inline-block;
+    vertical-align: top;
+}
+.banner-list img{
+    width: 525px;
+    height: 295px;
+}
+.banner-preview{
+    /* width: 135px; */
+    height: 295px;
+    display: inline-block;
+    margin-left: 5px;
+    vertical-align: top;
+    padding: 0 7px 0 4px;
+}
+.banner-preview img{
+    width: 123.42px;
+    height: 69.5px;
+}
+.banner-preview-item{
+    width: 123.42px;
+    height: 73.45px;
+    padding-bottom: 4px;
+}

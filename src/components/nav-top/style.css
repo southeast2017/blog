@@ -1,0 +1,49 @@
+.nav-top-wrap{
+    background: linear-gradient(#444,#666);
+}
+.site-logo{
+    width: 100%;
+    height: 110px;
+}
+.site-logo h2{
+    font-size: 38px;
+    color: #fff;
+    font-weight: 500;
+}
+.site-logo span:first-child{
+    margin-right: 1px;
+    color: #3197EF;
+}
+.site-logo p{
+    margin: -3px 0 0 3px;
+    color: #fff;
+    font-size: 12px;
+}
+.navbar-item, form{
+    display: inline-block;
+}
+.navbar-item a{
+    display: inline-block;
+    height: 40px;
+    color: #fff;
+    padding: 0 26px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 40px;
+    text-decoration: none;
+    transition: color .3s ease;
+}
+.navbar-item a:hover{
+    color: #56adf9;
+    background-color: #333;
+    border-color: #333;
+}
+.navbar-collapse-body{
+    height: 40px;
+    background-color: #444;
+    box-shadow: 0 0 3px #3a3a3a;
+}
+input[type='text']{
+    max-width: 300px;
+    border-radius: 1px;
+}

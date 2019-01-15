@@ -1,0 +1,34 @@
+.day-word{
+    width: 394px;
+    height: 294px;
+    padding: 10px 16px 8px;
+    position: relative;
+    box-shadow: 0 0 5px #555;
+    box-sizing: border-box;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 11px;
+}
+.day-word img{
+    width: 100%;
+    height: auto;   
+}
+.day-word h2{
+    position: absolute;
+    top: 14%;
+    right: 19%;
+    font-size: 23px;
+    font-weight: 700px;   
+}
+.day-word span{
+    position: absolute;
+    display: inline-block;
+    right: 10%;
+    top: 32%;
+    width: 75%;
+    font-size: 18px;
+}
+.home-banner{
+    margin-bottom: 15px;
+}
