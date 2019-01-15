@@ -5,6 +5,10 @@ import Article from '../components/article';
 class Home extends Component {
     constructor(props) {
         super(props);
+
+        this.state = {
+            carousel: true
+        }
     }
     componentDidMount() {
         const match = this.props.match.isExact;
@@ -12,13 +16,10 @@ class Home extends Component {
     }
 
     render() {
-        const data = {
-            carousel: true
-        }
 
         return(
             <div>              
-                <Article {...data} />
+                <Article {...this.state} />
             </div>
         );
     }

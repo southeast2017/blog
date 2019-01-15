@@ -37,7 +37,6 @@ class HomePage extends Component {
     }
 
     render() {
-        // const isHome = false;
 
         return (
             <div>
@@ -51,7 +50,7 @@ class HomePage extends Component {
                         <Route exact path='/' render={(props)=>(<Home {...props} onHome={this.onHome} />)} />
                         <Route path='/home' render={(props)=>(<Home {...props} onHome={this.onHome} />)} />
                         <Route path='/article' render={(props)=>(<Article {...props} onOther={this.onOther} />)} />
-                        <Route path='/article-detail' render={(props)=>(<ArticleDetail {...props} onOther={this.onOther} />)} />
+                        <Route path='/article-detail/:id' render={(props)=>(<ArticleDetail {...props} onOther={this.onOther} />)} />
                     </div>
                     <div className='nav-side'>
                         <NavSide />
